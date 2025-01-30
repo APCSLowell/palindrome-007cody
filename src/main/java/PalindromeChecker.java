@@ -48,10 +48,10 @@ public boolean palindrome(String word)
 }
 public String reverse(String str)
 {
-    String sNew = new String();
-    for (int i=str.length(); i>0; i--){
-    sNew = sNew + str.substring(i-1,i);
+  String output = new String ("");
+  for (int i=str.length(); i>0; i--){
+    output = output + str.substring(i-1,i);
   }
-    return sNew;
+  return output;
 }
 }
